@@ -50,12 +50,12 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=..\02_Schematics\Reverse_Protection.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -67,12 +67,12 @@ DocumentUniqueId=IMBPSFBA
 
 [Document2]
 DocumentPath=..\02_Schematics\5V_SYS_SUPPLY.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -84,12 +84,12 @@ DocumentUniqueId=RHTJNWKS
 
 [Document3]
 DocumentPath=..\02_Schematics\6DOF_CONTROLLER_Top.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -97,16 +97,16 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SZOLDRLP
 
 [Document4]
 DocumentPath=..\02_Schematics\3V3_SYS_SUPPLY.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
+AnnotationEnabled=0
+AnnotateStartValue=4000
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -132,6 +132,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AHVROWSG
+
+[Document6]
+DocumentPath=..\02_Schematics\5V0_EXT_SUPPLY.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=5000
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KDHUWGQB
 
 [Configuration1]
 Name=Sources
