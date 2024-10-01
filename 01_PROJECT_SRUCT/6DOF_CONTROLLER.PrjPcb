@@ -253,6 +253,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OBRVKIIO
 
+[Document13]
+DocumentPath=..\05_OUT_JOB\6DOF_CONTROLLER.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=4F52270B-5567-4DDA-94C0-3A18EFCD7A33
 Description=ALL Components
@@ -286,10 +303,10 @@ ConfigurationType=Source
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
-AutoOpenOutJob=-1
+AutoOpenOutJob=0
 
 [Generic_SmartPDFSettings]
-ProjectMode=0
+ProjectMode=-1
 ZoomPrecision=50
 AddNetsInformation=-1
 AddNetPins=-1
@@ -312,15 +329,15 @@ SCH_ShowNote=-1
 SCH_ShowNoteCollapsed=-1
 Wir_PrintColor=0
 Ldr_PrintColor=0
-SCH_ExpandLogicalToPhysical=0
-SCH_VariantName=[No Variations]
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=ALL Components
 SCH_ExpandComponentDesignators=-1
-SCH_ExpandNetlabels=0
-SCH_ExpandPorts=0
-SCH_ExpandSheetNumber=0
-SCH_ExpandDocumentNumber=0
+SCH_ExpandNetlabels=-1
+SCH_ExpandPorts=-1
+SCH_ExpandSheetNumber=-1
+SCH_ExpandDocumentNumber=-1
 SCH_HasExpandLogicalToPhysicalSheets=-1
-SaveSettingsToOutJob=0
+SaveSettingsToOutJob=-1
 
 [OutputGroup1]
 Name=Netlist Outputs
