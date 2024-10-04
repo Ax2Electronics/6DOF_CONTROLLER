@@ -43,7 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=ALL Components
+CurrentVariant=Only Populated Components
 
 [Preferences]
 PrefsVaultGUID=
@@ -187,9 +187,9 @@ DocumentUniqueId=WEPILWZF
 
 [Document9]
 DocumentPath=..\02_Schematics\12V_VMOT_SUPPLY.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=8000
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=7
@@ -204,9 +204,9 @@ DocumentUniqueId=UUWHUZFM
 
 [Document10]
 DocumentPath=..\02_Schematics\COOLING_FAN.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=9000
-AnnotationIndexControlEnabled=1
+AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=8
@@ -238,12 +238,12 @@ DocumentUniqueId=ZJDMPSNX
 
 [Document12]
 DocumentPath=..\02_Schematics\MICRO_SD_CARD.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -283,12 +283,21 @@ UniqueID=9BDB3AC3-091B-411D-9277-FE5025DB4001
 Description=Only Populated Components
 AllowFabrication=1
 ParameterCount=0
-VariationCount=4
+VariationCount=13
 AllowVariationPastMask=1
 Variation1=Designator=R6005|UniqueId=\VPYROZPK\AANVZYZS|Kind=1|AlternatePart= 
 Variation2=Designator=C6000|UniqueId=\VPYROZPK\TJUNXFGD|Kind=1|AlternatePart= 
-Variation3=Designator=R8012|UniqueId=\AFNVEKIV\XWSAQUWA|Kind=1|AlternatePart= 
+Variation3=Designator=R8014|UniqueId=\AFNVEKIV\XWSAQUWA|Kind=1|AlternatePart= 
 Variation4=Designator=R5007|UniqueId=\LMGUQZIX\MKOEWTQK|Kind=1|AlternatePart= 
+Variation5=Designator=Q8001|UniqueId=\AFNVEKIV\QWPPIRGD|Kind=1|AlternatePart= 
+Variation6=Designator=Q8003|UniqueId=\AFNVEKIV\LJDJZGSV|Kind=1|AlternatePart= 
+Variation7=Designator=C8025|UniqueId=\AFNVEKIV\LYLXRVQA|Kind=1|AlternatePart= 
+Variation8=Designator=R7005_U_MOTOR_DRIVER_CEC1|UniqueId=\PAMEDGIK\JJEVGYMG|Kind=1|AlternatePart= 
+Variation9=Designator=R7005_U_MOTOR_DRIVER_CEC6|UniqueId=\KGTZBRHK\JJEVGYMG|Kind=1|AlternatePart= 
+Variation10=Designator=R7005_U_MOTOR_DRIVER_CEC5|UniqueId=\PNKMHLGM\JJEVGYMG|Kind=1|AlternatePart= 
+Variation11=Designator=R7005_U_MOTOR_DRIVER_CEC4|UniqueId=\UHBRULGB\JJEVGYMG|Kind=1|AlternatePart= 
+Variation12=Designator=R7005_U_MOTOR_DRIVER_CEC3|UniqueId=\HUWTTFAC\JJEVGYMG|Kind=1|AlternatePart= 
+Variation13=Designator=R7005_U_MOTOR_DRIVER_CEC2|UniqueId=\NXYHEFCT\JJEVGYMG|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
