@@ -52,7 +52,7 @@ PrefsRevisionGUID=
 [Document1]
 DocumentPath=..\02_Schematics\Reverse_Protection.SchDoc
 AnnotationEnabled=0
-AnnotateStartValue=1
+AnnotateStartValue=2000
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
@@ -270,6 +270,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document14]
+DocumentPath=..\02_Schematics\MICRO_SD_CARD.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=..\02_Schematics\MCU_SoM.SchDoc
+AnnotationEnabled=0
+AnnotateStartValue=1200
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=11
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YWNDERKD
+
 [ProjectVariant1]
 UniqueID=4F52270B-5567-4DDA-94C0-3A18EFCD7A33
 Description=ALL Components
@@ -315,7 +349,7 @@ AutoOpenFile=-1
 AutoOpenOutJob=0
 
 [Generic_SmartPDFSettings]
-ProjectMode=-1
+ProjectMode=0
 ZoomPrecision=50
 AddNetsInformation=-1
 AddNetPins=-1
@@ -346,7 +380,7 @@ SCH_ExpandPorts=-1
 SCH_ExpandSheetNumber=-1
 SCH_ExpandDocumentNumber=-1
 SCH_HasExpandLogicalToPhysicalSheets=-1
-SaveSettingsToOutJob=-1
+SaveSettingsToOutJob=0
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -968,7 +1002,7 @@ Type32=1
 Type33=1
 Type34=1
 Type35=1
-Type36=1
+Type36=0
 Type37=1
 Type38=1
 Type39=1
@@ -1298,11 +1332,35 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=IntegratedCircuits.IntLib
-ComponentDesignItemID0=LM25148RGYR
-ComponentSymbolReference0=LM25148RGYR
+ComponentLibraryIdentifier0=ResistorsIntegrated.IntLib
+ComponentDesignItemID0=R000010
+ComponentSymbolReference0=R000010
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=ResistorsIntegrated.IntLib
+ComponentDesignItemID1=R000027
+ComponentSymbolReference1=R000027
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=ResistorsIntegrated.IntLib
+ComponentDesignItemID2=R000028
+ComponentSymbolReference2=R000028
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=ResistorsIntegrated.IntLib
+ComponentDesignItemID3=R000029
+ComponentSymbolReference3=R000029
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=ResistorsIntegrated.IntLib
+ComponentDesignItemID4=R000030
+ComponentSymbolReference4=R000030
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1324,22 +1382,18 @@ ParameterName2=ComponentLink1Description
 ParameterUpdate2=1
 ParameterName3=ComponentLink1URL
 ParameterUpdate3=1
-ParameterName4=ComponentLink2Description
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=ComponentLink2URL
+ParameterName5=DigiKey Part Number
 ParameterUpdate5=1
-ParameterName6=Description
+ParameterName6=Library Reference
 ParameterUpdate6=1
-ParameterName7=DigiKey Part Number
+ParameterName7=resistance
 ParameterUpdate7=1
-ParameterName8=Library Reference
-ParameterUpdate8=1
-ParameterName9=Mouser Part Number
-ParameterUpdate9=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=VQFN25_RGY_TEX
+ModelName0=RES_0603
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
@@ -1354,36 +1408,46 @@ Net2=NetName=12V_VMOT1_EN|NetColor=$00FF0099
 Net3=NetName=12V_VMOT1_EN_1|NetColor=$00FF0099
 Net4=NetName=12V_VMOT1_PGOOD|NetColor=$00FF0099
 Net5=NetName=12V_VMOT1_PGOOD_1|NetColor=$00FF0099
-Net6=NetName=3V3_SYS_EN|NetColor=$00FF0099
-Net7=NetName=3V3_SYS_EN_1|NetColor=$00FF0099
-Net8=NetName=3V3_SYS_PGOOD|NetColor=$00FF0099
-Net9=NetName=3V3_SYS_PGOOD_1|NetColor=$00FF0099
-Net10=NetName=3V3_uC|NetColor=clLime
-Net11=NetName=5V0_EXT_EN|NetColor=$00FF0099
-Net12=NetName=5V0_EXT_EN_1|NetColor=$00FF0099
-Net13=NetName=5V0_EXT_PGOOD|NetColor=$00FF0099
-Net14=NetName=5V0_EXT_PGOOD_1|NetColor=$00FF0099
-Net15=NetName=5V0_SYS|NetColor=clAqua
-Net16=NetName=5V0_SYS_PGOOD|NetColor=clBlack
-Net17=NetName=5V0_SYS_PGOOD_1|NetColor=clBlack
-Net18=NetName=NetIC?_17|NetColor=$00FF0099
-Net19=NetName=NetIC4000_4|NetColor=$00FF0099
-Net20=NetName=NetIC5000_4|NetColor=$00FF0099
-Net21=NetName=NetR?_1|NetColor=$00FF0099
-Net22=NetName=NetR3001_1|NetColor=clAqua
-Net23=NetName=NetR4000_1|NetColor=clAqua
-Net24=NetName=NetR4004_1|NetColor=$00FF0099
-Net25=NetName=NetR4006_2|NetColor=clLime
-Net26=NetName=NetR5004_1|NetColor=$00FF0099
-Net27=NetName=NetR5006_2|NetColor=clLime
-Net28=NetName=NetR6000_1|NetColor=clAqua
-Net29=NetName=NetR6001_2|NetColor=clLime
-Net30=NetName=NetR6006_1|NetColor=clBlack
-Net31=NetName=POWER_OFF_INT|NetColor=$00FF0099
-Net32=NetName=POWER_OFF_INT_1|NetColor=$00FF0099
-Net33=NetName=POWER_OFF_MCU|NetColor=$00FF0099
-Net34=NetName=POWER_OFF_MCU_1|NetColor=$00FF0099
-Net35=NetName=R_SENSE_N|NetColor=$006666E0
+Net6=NetName=3V3_SYS|NetColor=$00A07BC2
+Net7=NetName=3V3_SYS_EN|NetColor=$00FF0099
+Net8=NetName=3V3_SYS_EN_1|NetColor=$00FF0099
+Net9=NetName=3V3_SYS_PGOOD|NetColor=$00FF0099
+Net10=NetName=3V3_SYS_PGOOD_1|NetColor=$00FF0099
+Net11=NetName=3V3_uC|NetColor=clLime
+Net12=NetName=5V0_EXT_EN|NetColor=$00FF0099
+Net13=NetName=5V0_EXT_EN_1|NetColor=$00FF0099
+Net14=NetName=5V0_EXT_PGOOD|NetColor=$00FF0099
+Net15=NetName=5V0_EXT_PGOOD_1|NetColor=$00FF0099
+Net16=NetName=5V0_SYS|NetColor=clAqua
+Net17=NetName=5V0_SYS_PGOOD|NetColor=clBlack
+Net18=NetName=5V0_SYS_PGOOD_1|NetColor=clBlack
+Net19=NetName=NetCEC7000_B1|NetColor=$00A07BC2
+Net20=NetName=NetCEC7000_U_MOTOR_DRIVER_CEC1_B1|NetColor=$00A07BC2
+Net21=NetName=NetCEC7000_U_MOTOR_DRIVER_CEC2_B1|NetColor=$00A07BC2
+Net22=NetName=NetCEC7000_U_MOTOR_DRIVER_CEC3_B1|NetColor=$00A07BC2
+Net23=NetName=NetCEC7000_U_MOTOR_DRIVER_CEC4_B1|NetColor=$00A07BC2
+Net24=NetName=NetCEC7000_U_MOTOR_DRIVER_CEC5_B1|NetColor=$00A07BC2
+Net25=NetName=NetCEC7000_U_MOTOR_DRIVER_CEC6_B1|NetColor=$00A07BC2
+Net26=NetName=NetIC?_17|NetColor=$00FF0099
+Net27=NetName=NetIC1100_15|NetColor=$00A07BC2
+Net28=NetName=NetIC4000_4|NetColor=$00FF0099
+Net29=NetName=NetIC5000_4|NetColor=$00FF0099
+Net30=NetName=NetR?_1|NetColor=$00FF0099
+Net31=NetName=NetR3001_1|NetColor=clAqua
+Net32=NetName=NetR4000_1|NetColor=clAqua
+Net33=NetName=NetR4001_2|NetColor=$00A07BC2
+Net34=NetName=NetR4004_1|NetColor=$00FF0099
+Net35=NetName=NetR4006_2|NetColor=clLime
+Net36=NetName=NetR5004_1|NetColor=$00FF0099
+Net37=NetName=NetR5006_2|NetColor=clLime
+Net38=NetName=NetR6000_1|NetColor=clAqua
+Net39=NetName=NetR6001_2|NetColor=clLime
+Net40=NetName=NetR6006_1|NetColor=clBlack
+Net41=NetName=POWER_OFF_INT|NetColor=$00FF0099
+Net42=NetName=POWER_OFF_INT_1|NetColor=$00FF0099
+Net43=NetName=POWER_OFF_MCU|NetColor=$00FF0099
+Net44=NetName=POWER_OFF_MCU_1|NetColor=$00FF0099
+Net45=NetName=R_SENSE_N|NetColor=$006666E0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
